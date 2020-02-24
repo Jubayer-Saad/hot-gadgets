@@ -10,6 +10,9 @@
 .orange-bg{
     background-color:white;
     border-radius: 10px;
+    background-image: url(image/best-product.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .carousel-item{
     padding: 20px 40px;
@@ -45,5 +48,61 @@
     width: 60%;
     padding-top: 30px;
 }
+.pale-order img {
+    width: 100%;
+}
+.merge-image0 img {
+    padding: 40px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px 5px 5px 30px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.merge-image1,
+.merge-image2 {
+    padding: 40px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px 5px 30px 5px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.catagories-border::after {
+    position: absolute;
+    content: " ";
+    height: 7px;
+    width: 70px;
+    background: transparent linear-gradient(142deg, #FF9C35 0%, #FFD019 100%) 0 0 no-repeat padding-box;
+    border-radius: 10px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
+.bold{
+    font-weight: bold;
+}
+.silver-bg{
+    background-color: #fceae8;
+}
+footer{
+    text-align: center;
+}
+
+ 
 
 
